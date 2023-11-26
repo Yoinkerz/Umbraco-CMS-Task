@@ -1,0 +1,10 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "_Layout.cshtml";
+}
+
+@await Html.PartialAsync("_NavSection")
+@await Html.PartialAsync("_NewsTitleSection")
+@await Html.PartialAsync("_NewsGridSection")
+@await Html.PartialAsync("_SignupSection")
